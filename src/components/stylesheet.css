@@ -1,0 +1,36 @@
+/* Sidebar start */
+#sidebar-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 5vw;
+  height: 100vh;
+  box-shadow: 0px 0px 3px;
+  z-index: 1;
+  background-color: #FFFFFF;
+}
+
+#other-icons {
+  padding: 1px;
+}
+
+/* Sidebar end */
+
+/* Messages panel start */
+#messages-list-container {
+  width: 25vw;
+
+}
+
+#header {
+  padding: 15px;
+  height: 5vh;
+  background-color: #FFFFFF;
+}
+
+#message-component {
+  
+}
+
+/* Messages panel end */

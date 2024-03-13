@@ -1,16 +1,17 @@
 import React from "react";
-import './Navbar.css';
 import { IoHomeOutline } from "react-icons/io5";
 import { FiMessageSquare, FiSearch } from "react-icons/fi";
 import { IoSettingsOutline } from "react-icons/io5";
 import { IconContext } from "react-icons";
+import '../stylesheet.css';
 
-function SideNavbar() {
+function Sidebar() {
     return (
-        <div id="container">
+        <div id='sidebar-container'>
             <IconContext.Provider value={{
-                size: '30px', style: {
+                size: '20px', style: {
                     display: 'flex',
+                    padding: '2vh'
                 }
             }}>
                 <div id="other-icons">
@@ -26,4 +27,4 @@ function SideNavbar() {
     )
 }
 
-export default SideNavbar;
+export default Sidebar;

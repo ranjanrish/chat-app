@@ -1,23 +1,4 @@
 #interface {
-  display: flex;
-  flex-direction: row;
-}
-
-#side-navbar {
-  display: inherit;
-  width: 5vw;
-  height: 100vh;    
-  background-color: aqua;
-}
-
-#message-list {
-  width: 30vw;
-  height: 100vh;
-  background-color  : blue;
-}
-
-#inbox {
-  background-color: brown;
-  height: 100vh;
-  width: 150vh;
+  display: flex;   
+  
 }

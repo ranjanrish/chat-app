@@ -1,17 +1,16 @@
 import React from "react";
-import './Inbox.css';
 
-function Inbox() {
+function MessagePanel() {
     return (
-        <>
+        <React.Fragment>
             <div id='inbox-header'>
             Hi
             </div>
             <div id='inbox-area'>
 
             </div>
-        </>
+        </React.Fragment>
     );
 }
 
-export default Inbox;
+export default MessagePanel;
